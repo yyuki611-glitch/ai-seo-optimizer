@@ -1,0 +1,11 @@
+# config/own_sites.yaml
+own_site:
+  site_id: grooveinc
+  site_name: "GROOVE Inc. ブログ"
+  site_url: "https://grooveinc.jp"
+  crawl_type: pagination
+  blog_url: "https://grooveinc.jp/blog"
+  article_url_pattern: "/blog/"
+  article_list_selector: ".blogList__item a"
+  pagination_url_template: "https://grooveinc.jp/blog/page/{page}"
+  use_playwright: false

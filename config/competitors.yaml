@@ -1,0 +1,169 @@
+# config/competitors.yaml
+sites:
+  - site_id: bxo
+    site_name: "EC相談室"
+    site_url: "https://bxo.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://bxo.co.jp/post-sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/magazine/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: itsumo365
+    site_name: "株式会社いつも"
+    site_url: "https://itsumo365.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://itsumo365.co.jp/sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/blog/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: wac_works
+    site_name: "Wacworks"
+    site_url: "https://wac-works-ec.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://wac-works-ec.jp/post-sitemap.xml"
+    blog_url: ""
+    article_url_pattern: ""
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: true
+    enabled: true
+
+  - site_id: pureflat
+    site_name: "ピュアフラット"
+    site_url: "https://pureflat.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://pureflat.co.jp/wp-sitemap-posts-post-1.xml"
+    blog_url: ""
+    article_url_pattern: "/column/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: cyber_records
+    site_name: "サイバーレコーズ"
+    site_url: "https://www.cyber-records.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://www.cyber-records.co.jp/post-sitemap.xml"
+    blog_url: ""
+    article_url_pattern: ""
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: force_r
+    site_name: "force-r"
+    site_url: "https://force-r.co.jp"
+    crawl_type: pagination
+    sitemap_url: ""
+    blog_url: "https://force-r.co.jp/column/"
+    article_url_pattern: "/column/"
+    article_list_selector: "figure a"
+    pagination_url_template: "https://force-r.co.jp/column/page/{page}/"
+    use_playwright: false
+    enabled: true
+
+  - site_id: sobani
+    site_name: "sobani"
+    site_url: "https://sobani.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://sobani.co.jp/columnlist-sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/columnlist/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: picaro
+    site_name: "ピカロ"
+    site_url: "https://www.picaro.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://www.picaro.co.jp/sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/blog-posts/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: ubunbase
+    site_name: "ubunbase"
+    site_url: "https://ubunbase.ubun.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://ubunbase.ubun.jp/post-sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/blog/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: finner
+    site_name: "finner"
+    site_url: "https://finner.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://finner.co.jp/post-sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/media/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: meetsc
+    site_name: "meetsc"
+    site_url: "https://meetsc.co.jp"
+    crawl_type: single_page
+    sitemap_url: ""
+    blog_url: "https://meetsc.co.jp/blog/"
+    article_url_pattern: "/blog/"
+    article_list_selector: ".card a"
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: dentsudigital
+    site_name: "電通デジタル"
+    site_url: "https://www.dentsudigital.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://www.dentsudigital.co.jp/sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/knowledge-charge/articles/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: hakuhodody_one
+    site_name: "博報堂DYワン"
+    site_url: "https://www.hakuhodody-one.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://www.hakuhodody-one.co.jp/news-sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/news/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
+
+  - site_id: oneder
+    site_name: "oneder"
+    site_url: "https://oneder.hakuhodody-one.co.jp"
+    crawl_type: sitemap
+    sitemap_url: "https://oneder.hakuhodody-one.co.jp/sitemap.xml"
+    blog_url: ""
+    article_url_pattern: "/blog/"
+    article_list_selector: ""
+    pagination_url_template: ""
+    use_playwright: false
+    enabled: true
